@@ -1,8 +1,8 @@
 {
 	"name": "cs-poco-to-dart",
-	"displayName": "cs-poco-to-dart",
+	"displayName": "C# POCO to Dart Model",
 	"description": "Convert C# poco class to Dart model class",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "thinh-hua",
 	"engines": {
 		"vscode": "^1.43.0"

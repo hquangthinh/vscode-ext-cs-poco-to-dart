@@ -15,3 +15,6 @@ This extension provides command to quickly convert C# poco class to Dart model c
 
 First version with 2 editor commands *CSharp to Dart code* and *CSharp to Dart code generate json serializer*
 
+### 0.0.2
+
+Update readme
