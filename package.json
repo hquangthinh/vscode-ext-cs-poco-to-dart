@@ -3,9 +3,17 @@
 	"displayName": "cs-poco-to-dart",
 	"description": "Convert C# poco class to Dart model class",
 	"version": "0.0.1",
-	"publisher": "thinhhua",
+	"publisher": "thinh-hua",
 	"engines": {
 		"vscode": "^1.43.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hquangthinh/vscode-ext-cs-poco-to-dart.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hquangthinh/vscode-ext-cs-poco-to-dart/issues",
+		"email": "hquangthinh@gmail.com"
 	},
 	"categories": [
 		"Programming Languages",
