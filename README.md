@@ -1,4 +1,4 @@
-# cs-poco-to-dart README
+# README
 
 This extension provides command to quickly convert C# poco class to Dart model class with JsonSerializer support syntax
 
