@@ -13,11 +13,12 @@ export function activate(context: vscode.ExtensionContext) {
 			let newContent = allContent
 				.replace(/public string/g, "String")
 				.replace(/public decimal/g, "double")
-				.replace(/public DateTime?/g, "DateTime")
+				.replace(/public DateTime\?/g, "DateTime")
 				.replace(/public partial/g, "")
 				.replace(/public/g, "")
-				.replace(/:/, "extends")
+				.replace(/:/g, "extends")
 				.replace(/IList/g, "List")
+				.replace(/Dictionary<string, object>/g, "Map<String, dynamic>")
 				.replace(/{ get; set; }/g, ";")
 				.replace(/\w+\s;/g, propertyNameReplacer);
 
