@@ -18,3 +18,7 @@ First version with 2 editor commands *CSharp to Dart code* and *CSharp to Dart c
 ### 0.0.2
 
 Update readme. Update Dart generated code
+
+### 0.0.3
+
+ Handle replacement of more data types

@@ -12,12 +12,21 @@ export function activate(context: vscode.ExtensionContext) {
 			let lineCount = editor.document.lineCount;
 			let newContent = allContent
 				.replace(/public string/g, "String")
+				.replace(/public decimal\?/g, "double")
 				.replace(/public decimal/g, "double")
+				.replace(/public double\?/g, "double")
+				.replace(/public int\?/g, "int")
+				.replace(/public Int32/g, "int")
+				.replace(/public Int64/g, "int")
+				.replace(/public bool\?/g, "bool")
 				.replace(/public DateTime\?/g, "DateTime")
 				.replace(/public partial/g, "")
 				.replace(/public/g, "")
+				.replace(/\[\w+\("\w+"\)\]/g, "")
+				.replace(/\[\w+\(\w+\(\w+\)\)\]/g, "")
 				.replace(/:/g, "extends")
 				.replace(/IList/g, "List")
+				.replace(/List<string>/g, "List<String>")
 				.replace(/Dictionary<string, object>/g, "Map<String, dynamic>")
 				.replace(/{ get; set; }/g, ";")
 				.replace(/\w+\s;/g, propertyNameReplacer);

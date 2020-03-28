@@ -7,3 +7,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release: First version with 2 editor commands *CSharp to Dart code* and *CSharp to Dart code generate json serializer*
+
+- 0.0.3: Handle replacement of more data types
